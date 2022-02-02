@@ -1,14 +1,14 @@
 {
   "expo": {
-    "name": "TesteProjetoApp",
-    "slug": "TesteProjetoApp",
+    "name": "MyTracking",
+    "slug": "mytracking",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/my.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/mytracking.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#e5e8ed"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -21,12 +21,9 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
-    },
-    "web": {
-      "favicon": "./assets/favicon.png"
+      },
+      "package": "com.isabelle.padua.TesteProjetoApp"
     }
   }
 }
